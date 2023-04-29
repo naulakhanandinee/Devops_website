@@ -1,54 +1,29 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>My Travel Blog</title>
-</head>
-<body>
-	<header>
-		<h1>My Travel Blog</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Destinations</a></li>
-				<li><a href="#">About</a></li>
-			</ul>
-		</nav>
-	</header>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Guess a Word Game JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Guess the Word</h1>
+      <div class="content">
+        <input type="text" class="typing-input" maxlength="1">
+        <div class="inputs"></div>
+        <div class="details">
+          <p class="hint">Hint: <span></span></p>
+          <p class="guess-left">Remaining guesses: <span></span></p>
+          <p class="wrong-letter">Wrong letters: <span></span></p>
+        </div>
+        <button class="reset-btn">Reset Game</button>
+      </div>
+    </div>
 
-	<main>
-		<article>
-			<header>
-				<h2>My First Trip to Paris</h2>
-				<p>Posted on April 29, 2023</p>
-			</header>
-			<section>
-				<p>My first trip to Paris was just shy of my 21st birthday. I was studying abroad in Italy with my friends and decided to go to Paris for Valentine’s Day weekend. Just a day before the trip, I came down with terrible bronchitis. During that trip, I had a fever and I was so sick but I was going to let go of my dream of seeing Paris. I pushed through the weekend, making my recovery time from bronchitis a lot longer but it was so worth it. We took a double-decker bus, and I ate a banana and Nutella crêpes. Looking back, I wish there was a first-time guide to Paris to help me understand where to go and what not to do.
+    <script src="js/words.js"></script>
+    <script src="js/script.js"></script>
 
-I have learned a lot since my first trip to Paris by making mistakes and doing all the touristy things. A helpful blog and google map that first time around which would have saved us hours looking for Angelina Hot Chocolate. But we made memories, and I wouldn’t change a thing.</p>
-			</section>
-			<footer>
-				<p>Tags: <a href="#">Paris</a>, <a href="#">France</a>, <a href="#">Travel</a></p>
-			</footer>
-		</article>
-
-		<article>
-			<header>
-				<h2>Exploring the Great Barrier Reef</h2>
-				<p>Posted on May 1, 2023</p>
-			</header>
-			<section>
-				<p>This post is to help you have the best first trip to Paris. Paris is broken up into different neighborhoods called arrondissements. To understand how they lay on a map, the 1st arrondissement is in the center of the city and follows the path of a snail moving outwards. There are twenty arrondissements in the city spanning the left and right banks of Paris. If you want to hit the significant Paris attractions you will want to start in central Paris and work your way toward different areas of Paris if you have time.
-
-You can walk the city from one end to the other in about an hour, depending on how quickly you walk.  Public transportation is just about everywhere, and the famous landmarks are all accessible by a close metro line. During your first time in Paris, please don’t feel pressured to do it all.</p>
-			</section>
-			<footer>
-				<p>Tags: <a href="#">Great Barrier Reef</a>, <a href="#">Australia</a>, <a href="#">Snorkeling</a></p>
-			</footer>
-		</article>
-	</main>
-
-	<footer>
-		<p>Copyright &copy; 2023</p>
-	</footer>
-</body>
+  </body>
 </html>
